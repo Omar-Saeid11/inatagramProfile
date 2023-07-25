@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_margin="@dimen/small_margin"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/small_margin">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/user"
+            android:layout_margin="@dimen/normal_margin"
+            >
+        </ImageView>
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            style="@style/textViewStyle"
+            android:text="@string/number_of_posts">
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            style="@style/textViewStyle"
+            android:text="@string/number_of_followers">
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            style="@style/textViewStyle"
+            android:text="@string/number_of_following">
+        </TextView>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/better_ux_better_world"
+        style="@style/textViewStyle"
+        android:layout_gravity="left"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/designer"
+        style="@style/textViewStyle"
+        android:layout_gravity="left"
+        android:textColor="@color/gray"
+        >
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:drawableStartCompat="@drawable/baseline_waving_hand_24"
+        android:text="@string/bio_1"
+        style="@style/textView2Style"
+        android:drawablePadding="@dimen/small_padding"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bubw_podcast_spotify"
+        android:textSize="@dimen/text_size"
+        android:layout_gravity="left"
+        style="@style/textView2Style"
+        android:ellipsize="end"
+        android:lines="1"
+        app:drawableStartCompat="@drawable/baseline_mic_24"
+        android:drawablePadding="@dimen/small_padding">
+    </TextView>
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="@string/more"
+        android:textSize="@dimen/text_size"
+        android:layout_gravity="left"
+        android:alpha="0.5"
+        style="@style/textView2Style"
+        android:lines="1">
+    </TextView>
+</LinearLayout>
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="wrap_content"
+        android:text="@string/taplink_cc_ux_bubw"
+        style="@style/textView2Style"
+        android:layout_marginStart="6dp"
+        android:textColor="@color/link_color">
+    </TextView>
+<TextView
+    android:layout_width="110dp"
+    android:layout_height="35dp"
+    android:background="@drawable/mybackground"
+    android:text="@string/follow_on"
+    android:textColor="@color/white"
+    android:layout_gravity="center"
+    android:padding="@dimen/small_padding"
+    android:clickable="true"
+    android:layout_margin="@dimen/small_margin"
+    android:drawableTint="@color/white"
+    app:drawableEndCompat="@drawable/instagram_original">
+</TextView>
+</LinearLayout>
+</LinearLayout>

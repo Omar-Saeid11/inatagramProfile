@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">inatagramProfile</string>
+    <string name="number_of_posts">29\n  Posts</string>
+    <string name="number_of_followers">4,253\n  Followers</string>
+    <string name="number_of_following">266\n  Following</string>
+    <string name="posts">Posts</string>
+    <string name="better_ux_better_world">Better UX Better World</string>
+    <string name="designer">Designer</string>
+    <string name="bio_1">Bite-Sized learnings from my experinces as a #UX#Designer for the next generation Product Peeps.</string>
+    <string name="bubw_podcast_spotify">BUBW Podcast-Spotify\n.</string>
+    <string name="taplink_cc_ux_bubw">taplink.cc/ux.bubw</string>
+    <string name="follow_on">Follow on</string>
+    <string name="more">more</string>
+</resources>
